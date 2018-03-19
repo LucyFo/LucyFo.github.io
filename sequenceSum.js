@@ -6,7 +6,7 @@ const sequenceSum = (begin, end) => {
   else if (begin === end) {
     return end;
   }
-  else (begin < end) ;{
+  else (begin < end) {
     return begin + sequenceSum(begin + 1, end);
   }
 
